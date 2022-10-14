@@ -46,7 +46,7 @@ function send_node_email(email){
     const mailOptions = {
     from: from_email,
     to: email,
-    subject: 'Welcome to our website',
+    subject: 'Welcome',
     text: 'Thanks for registering'
     };
     
